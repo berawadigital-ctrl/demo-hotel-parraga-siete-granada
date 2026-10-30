@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-parraga-siete-granada",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-30T07:08:30+01:00",
+ "updated_at": "2026-10-30T07:20:00+01:00",
+ "business": {
+  "name": "Hotel Párraga Siete",
+  "legal_name": "AUTOMÁTICOS PUERTA REAL, S.L.",
+  "registry_ids": [
+   "CIF B18457853"
+  ],
+  "url": "https://www.hotelparragasiete.com/",
+  "domain": "hotelparragasiete.com",
+  "municipality": "Granada",
+  "province": "Granada",
+  "address": "Calle Párraga, 7 · 18002 Granada",
+  "phones": [
+   "+34 958 264 227"
+  ],
+  "emails": [
+   "info@hotelparragasiete.com"
+  ],
+  "sector": "hotel con encanto de 20 habitaciones en una casa del siglo XIX en el casco antiguo de Granada"
+ },
+ "rating": {
+  "value": 4.4,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+P%C3%A1rraga+Siete/@37.1734602,-3.6007947,17z/data=!4m9!3m8!1s0xd71fcbe0ed46ee5:0x148ff125d250ddd9!5m2!4m1!1i2!8m2!3d37.1734602!4d-3.6007947!16s%2Fg%2F11xqspd3_",
+  "date": "2026-10-29T11:02:09+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "en",
+  "fr",
+  "de"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": "https://www.hotelparragasiete.com/reservas/",
+  "note": "página de reservas real de su web (/reservas/, /en/reservas/, /fr/reservas/), HTTP 200 comprobado el 30/10/2026; su web no tiene alemán, así que DE abre la versión inglesa."
+ },
+ "audit_original": {
+  "url": "https://www.hotelparragasiete.com/",
+  "date": "2026-10-30T06:50:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": null,
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
