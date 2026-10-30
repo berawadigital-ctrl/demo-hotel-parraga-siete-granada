@@ -1,0 +1,369 @@
+{
+ "url": "http://127.0.0.1:33755/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "El hotel tiene 20 habitaciones: individual estándar y deluxe, doble estándar y doble deluxe de 18 m² (2 camas individuales o 1 cama doble en"
+    },
+    {
+     "q": "¿Tenéis apartamento?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí: hay un apartamento de 100 m² en las inmediaciones del hotel, con salón cocina, una habitación y dos baños. El parking está incluido en e"
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "El apartamento incluye parking en el precio. Para las habitaciones del hotel, su web indica el parking más cercano en la página de localizac"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Cada día, a partir de las 07:00, el hotel ofrece servicio de cesta de desayuno en la habitación. También hay un rincón de té y café."
+    },
+    {
+     "q": "¿Qué tal es el restaurante?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "El hotel alberga el restaurante Blu Vitola, con bodega propia y platos típicos de la zona: carta encabezada por productos locales, carnes al"
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Hay WiFi gratuito en todas las instalaciones, guardaequipaje e información turística, y el hotel está adaptado para personas con movilidad r"
+    },
+    {
+     "q": "¿Puedo hacer el check-in online?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sí: para agilizar la entrada el día de tu llegada, su web ofrece hacer el check-in online desde la página Check In Online."
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Está en Calle Párraga, 7, 18002 Granada, en el casco antiguo, a solo 5 minutos a pie de la catedral."
+    },
+    {
+     "q": "¿Me ayudáis con la Alhambra?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "El hotel ofrece asesoramiento para reservar tu tour guiado por la Alhambra y te da la información turística que necesites sobre Granada."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en la página de reservas de su web (botón Reservar), llamar al +34 958 264 227 o escribir a info@hotelparragasiete.com. Este"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en la página de reservas de su web (botón Reservar), llamar al +34 958 264 227 o escribir a info@hotelparragasiete.com. Este"
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 958 264 227 · info@hotelparragasiete.com."
+    },
+    {
+     "q": "¿Admitís mascotas?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 958 264 227 · info@hotelparragasiete.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Tenéis apartamento?",
+    "¿Hay desayuno?",
+    "¿Dónde está el hotel?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "The hotel has 20 rooms: standard and deluxe singles, 18 m² standard and deluxe doubles (2 single beds or 1 double bed in the deluxe), and 28"
+    },
+    {
+     "q": "Do you have an apartment?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Yes: there is a 100 m² apartment near the hotel, with living room and kitchen, one bedroom and two bathrooms. Parking is included in the pri"
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "The apartment includes parking in the price. For hotel rooms, their website points to the nearest car park on its location page; ask when yo"
+    },
+    {
+     "q": "Is there breakfast?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Every day from 07:00 the hotel offers a breakfast basket service in your room. There is also a tea and coffee corner."
+    },
+    {
+     "q": "What is the restaurant like?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "The hotel houses the Blu Vitola restaurant, with its own wine cellar and typical local dishes: a menu led by local products, kamado-grilled "
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "There is free WiFi throughout, luggage storage and tourist information, and the hotel is adapted for people with reduced mobility."
+    },
+    {
+     "q": "Can I do online check-in?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Yes: to speed up your arrival, their website lets you do online check-in from its Check In Online page."
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "It is at Calle Párraga, 7, 18002 Granada, in the old town, just a 5-minute walk from the cathedral."
+    },
+    {
+     "q": "Can you help me with the Alhambra?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "The hotel offers advice on booking your guided tour of the Alhambra and gives you any tourist information you need about Granada."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on their website's booking page (Book button), call +34 958 264 227 or write to info@hotelparragasiete.com. This assistant does"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on their website's booking page (Book button), call +34 958 264 227 or write to info@hotelparragasiete.com. This assistant does"
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 958 264 227 · info@hotelparragasiete.com."
+    },
+    {
+     "q": "Do you allow pets?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 958 264 227 · info@hotelparragasiete.com."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Do you have an apartment?",
+    "Is there breakfast?",
+    "Where is the hotel?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "L'hôtel compte 20 chambres : individuelles standard et deluxe, doubles standard et deluxe de 18 m² (2 lits simples ou 1 lit double en deluxe"
+    },
+    {
+     "q": "Avez-vous un appartement ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Oui : il y a un appartement de 100 m² près de l'hôtel, avec salon-cuisine, une chambre et deux salles de bains. Le parking est inclus dans l"
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "L'appartement inclut le parking dans le prix. Pour les chambres de l'hôtel, leur site indique le parking le plus proche sur sa page d'accès "
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Chaque jour dès 07:00, l'hôtel propose un panier petit-déjeuner en chambre. Il y a aussi un coin thé et café."
+    },
+    {
+     "q": "Comment est le restaurant ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "L'hôtel abrite le restaurant Blu Vitola, avec sa propre cave et des plats typiques de la région : carte de produits locaux, viandes au kamad"
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "WiFi gratuit dans tout l'établissement, bagagerie et informations touristiques ; l'hôtel est adapté aux personnes à mobilité réduite."
+    },
+    {
+     "q": "Puis-je faire le check-in en ligne ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Oui : pour accélérer votre arrivée, leur site permet de faire le check-in en ligne depuis sa page Check In Online."
+    },
+    {
+     "q": "Où se trouve l'hôtel ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "L'hôtel se trouve Calle Párraga, 7, 18002 Grenade, dans la vieille ville, à 5 minutes à pied de la cathédrale."
+    },
+    {
+     "q": "Pouvez-vous m'aider pour l'Alhambra ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "L'hôtel vous conseille pour réserver votre visite guidée de l'Alhambra et vous donne les informations touristiques utiles sur Grenade."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur la page de réservation de leur site (bouton Réserver), appeler le +34 958 264 227 ou écrire à info@hotelparragasiet"
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur la page de réservation de leur site (bouton Réserver), appeler le +34 958 264 227 ou écrire à info@hotelparragasiet"
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 958 264 227 · info@hotelparragasiete.com."
+    },
+    {
+     "q": "Acceptez-vous les animaux ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 958 264 227 · info@hotelparragasiete.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Avez-vous un appartement ?",
+    "Y a-t-il un petit-déjeuner ?",
+    "Où se trouve l'hôtel ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Das Hotel hat 20 Zimmer: Einzelzimmer Standard und Deluxe, Doppelzimmer Standard und Deluxe mit 18 m² (im Deluxe 2 Einzelbetten oder 1 Doppe"
+    },
+    {
+     "q": "Haben Sie ein Apartment?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Ja: In der Nähe des Hotels gibt es ein 100-m²-Apartment mit Wohnküche, einem Schlafzimmer und zwei Bädern. Der Parkplatz ist im Preis inbegr"
+    },
+    {
+     "q": "Gibt es einen Parkplatz?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Beim Apartment ist der Parkplatz im Preis inbegriffen. Für die Hotelzimmer nennt die Website auf der Anfahrtsseite das nächstgelegene Parkha"
+    },
+    {
+     "q": "Gibt es Frühstück?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Täglich ab 07:00 Uhr bietet das Hotel einen Frühstückskorb auf dem Zimmer an. Außerdem gibt es eine Tee- und Kaffee-Ecke."
+    },
+    {
+     "q": "Wie ist das Restaurant?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Im Hotel befindet sich das Restaurant Blu Vitola mit eigenem Weinkeller und typischen Gerichten der Region: Karte mit lokalen Produkten, Fle"
+    },
+    {
+     "q": "Gibt es WLAN?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Es gibt kostenloses WLAN im ganzen Haus, Gepäckaufbewahrung und Touristeninformation, und das Hotel ist für Menschen mit eingeschränkter Mob"
+    },
+    {
+     "q": "Kann ich online einchecken?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Ja: Um die Ankunft zu beschleunigen, bietet die Website den Online-Check-in auf der Seite Check In Online an."
+    },
+    {
+     "q": "Wo liegt das Hotel?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Das Hotel liegt in der Calle Párraga, 7, 18002 Granada, in der Altstadt, nur 5 Gehminuten von der Kathedrale."
+    },
+    {
+     "q": "Können Sie mir bei der Alhambra helfen?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Das Hotel berät Sie bei der Buchung Ihrer Führung durch die Alhambra und gibt Ihnen alle touristischen Informationen zu Granada."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsseite der Website buchen (Schaltfläche Buchen), unter +34 958 264 227 anrufen oder an info@hotelparragasiete.com"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsseite der Website buchen (Schaltfläche Buchen), unter +34 958 264 227 anrufen oder an info@hotelparragasiete.com"
+    },
+    {
+     "q": "Was kostet eine Übernachtung?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 958 264 227 · info@hotelparragasiete.com."
+    },
+    {
+     "q": "Sind Haustiere erlaubt?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 958 264 227 · info@hotelparragasiete.com."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Haben Sie ein Apartment?",
+    "Gibt es Frühstück?",
+    "Wo liegt das Hotel?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
