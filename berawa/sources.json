@@ -1,0 +1,58 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.hotelparragasiete.com/",
+ "read_at": "2026-10-30T07:09:09+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.hotelparragasiete.com/",
+   "sha256": "2cf37631e419faa5d0acffe1b9230b5d1dbfdfe75f6e271937eb1b0ad3009099",
+   "chars": 3909
+  },
+  {
+   "url": "https://www.hotelparragasiete.com/check-in-online/",
+   "sha256": "2ca0412eefd4cf9fb8b118342e7efac2bf7f96028238db749e3d0cf0aa880bcf",
+   "chars": 1411
+  },
+  {
+   "url": "https://www.hotelparragasiete.com/en/",
+   "sha256": "e7e46eab19c1859c261e27c566a99047bb5692722fe9f9960ebed5f512a8ea62",
+   "chars": 3690
+  },
+  {
+   "url": "https://www.hotelparragasiete.com/habitaciones/",
+   "sha256": "ce238cd852939e6dd0aaef6e2e6d1e2439f36f4d60bf0dd39b7b959361da6ff3",
+   "chars": 4479
+  },
+  {
+   "url": "https://www.hotelparragasiete.com/localizacion-y-contacto/",
+   "sha256": "99ffed9995c573e3fbb94f4f509cceb94dbd0a2f22aefe0e18d1d6af7b53e64d",
+   "chars": 1508
+  },
+  {
+   "url": "https://www.hotelparragasiete.com/restaurante/",
+   "sha256": "003b02f45b41144f162f2d4e920cbbcc08b3df48b29073c2fb9aa5958c7134ef",
+   "chars": 3200
+  },
+  {
+   "url": "https://www.hotelparragasiete.com/servicios/",
+   "sha256": "08e5200c7f7b672180345d7f93d8c0f3cbf695bf3080bea09071530578d9827a",
+   "chars": 2439
+  }
+ ],
+ "other_pages_read": [
+  "https://www.hotelparragasiete.com",
+  "https://www.hotelparragasiete.com/author/hotel-parraga-siete/",
+  "https://www.hotelparragasiete.com/corpus-christi-en-granada/",
+  "https://www.hotelparragasiete.com/experiencia-wellness/",
+  "https://www.hotelparragasiete.com/fr/",
+  "https://www.hotelparragasiete.com/granada/",
+  "https://www.hotelparragasiete.com/mi-reserva/",
+  "https://www.hotelparragasiete.com/politica-de-cookies/",
+  "https://www.hotelparragasiete.com/politica-de-privacidad/",
+  "https://www.hotelparragasiete.com/reservas/",
+  "https://www.hotelparragasiete.com/siete-bares-que-no-puedes-perderte-en-granada/",
+  "https://www.hotelparragasiete.com/siete-imprescindibles-que-no-pueden-faltar-en-tu-maleta/",
+  "https://www.hotelparragasiete.com/trabaja-con-nosotros/"
+ ]
+}
